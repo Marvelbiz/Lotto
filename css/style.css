@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Righteous',cursive;
+    font-size: 20px;
+}
+
+body{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    background: linear-gradient(black,rgba(0, 0, 0, 0.404)),url(../Images/Kurama_Render.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.body-cont{
+    border: 1px solid white;
+    padding: 20px;
+    box-shadow: 4px 5px 10px rgb(11, 245, 11);
+    border-radius: 15px 20% 15px 20%;
+}
+
+input{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.63);
+    outline: none;
+    border: none;
+    border-bottom: 10px solid rgb(16, 241, 16);
+    border-left: 10px solid rgb(14, 231, 14);
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 0 9999px 0 9999px;
+    margin: 10px;
+}
+
+a button{
+    margin: 10px;
+    padding:5px 10px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.go{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+    border: 5px solid white;
+    background-color: rgb(11, 252, 31);
+}
+
+.status{
+    text-shadow: 2px 4px 10px rgb(11, 252, 31);
+    font-size: 25px;
+}
